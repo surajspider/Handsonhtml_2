@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson2</title>
+</head>
+<body>
+    <form action="./submit.html">
+        <h1>FORMS</h1>
+        <label for="name1">Name</label>
+        <input type="text" name="name1" id="name1" placeholder="Enter your Name"><br><br>
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter your password"><br><br>
+        <!--Radio Button-->
+        <label for="lang">Language</label><br>
+        <input type="radio" name="lang" id="lang1" value="React">React<br>
+        <input type="radio" name="lang" id="lang2" value="Angular">Angular<br>
+        <input type="radio" name="lang" id="lang3" value="Vue">Vue<br><br>
+        <!--Check Box-->
+        <label>Course</label><br>
+        <input type="checkbox" name="course1" id="course1" value="MERN" required>
+        <label for="course1">MERN</label><br>
+        <input type="checkbox" name="course2" id="course2" value="MEAN">
+        <label for="course2">MEAN</label><br>
+        <input type="checkbox" name="course3" id="course3" value="MEVN">
+        <label for="course3">MEVN</label><br><br>
+        <!--Dropdown-->
+        <label for="field">Field:</label><br>
+        <select id="field" name="field">
+            <option value="Frontend">Front End</option>
+            <option value="Backend">Back End</option>
+            <option value="Fullstack">Full Stack</option>
+        </select><br><br>
+        <!--Textarea-->
+        <textarea id="random" name="random" rows="10" cols="40"></textarea><br><br>
+        <label for="num">Phone Number</label>
+        <input type="number" name="num" id="num" placeholder="Enter Number" max="10"> 
+        <input type="submit" value="Submit"><br><br>
+        <h1>TABLES</h1>
+        <a href="./table.html">Click Here</a>
+    </form>
+    
+</body>
+</html>
